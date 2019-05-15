@@ -6,7 +6,7 @@ else
     echo "inexistant"
 fi
 #Sur le fichiers/repertoires
-test -e cheminFichier #retourne vrai si le fichier existe
+test -e cheminFichier #retourne vrai si le fichier existe ou le dossier existe
 test -d cheminFichier #retourne vrai si le dossier existe
 #Opérations sur les chaines
 test -z chaine #vrai si la chaine(string) est de taille nulle
